@@ -2,7 +2,7 @@
   "id": "./",
   "name": "MiFlow \u2014 Your daily rhythm",
   "short_name": "MiFlow",
-  "description": "A synthetic bladder-health demo with offline access.",
+  "description": "Bladder patterns, daily insights and offline access.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

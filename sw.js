@@ -1,5 +1,5 @@
 'use strict';
-const VERSION = '63c14f7cc9e2a0cd';
+const VERSION = '737e2c8a9ff50c24';
 const ASSETS = [".nojekyll", "app.js", "compat.js", "data.js", "icons/apple-touch-icon.png", "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "index.html", "manifest.webmanifest", "metrics.js", "pwa.css", "pwa.js", "style.css"];
 const PREFIX = 'miflow-pwa:' + self.registration.scope + ':';
 const CACHE = PREFIX + VERSION;
