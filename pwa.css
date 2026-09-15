@@ -1,0 +1,16 @@
+[hidden]{display:none!important}
+.app{min-height:100vh}
+@supports (min-height:100dvh){.app{min-height:100dvh}}
+dialog{max-height:88vh}
+@supports (max-height:88dvh){dialog{max-height:88dvh}}
+dialog:not([open]){display:none}
+.ring{background-color:#697d4f}
+.app-access{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:0 0 16px;padding:9px 12px;background:#e8eddf;border-radius:14px;font-size:11px;line-height:1.5}
+.app-access span{color:#5e7057;margin:3px 8px 3px 0}
+.app-access button{background:transparent;text-decoration:underline;text-underline-offset:3px;font-size:11px;padding:10px 2px;min-height:44px}
+.app-access .ready::before{content:'●';color:#637e3e;margin-right:6px}
+#sheet-content .install-action{display:block;background:#234b40;color:#f4f5f0;padding:13px 18px;border-radius:14px;margin:16px 0;min-height:44px}
+.modal-open{overflow:hidden}
+.fallback-dialog[open]{display:block;position:fixed;bottom:0;top:auto;left:0;right:0;z-index:20;overflow:auto;box-shadow:0 0 0 100vmax #102c3699}
+@media (display-mode:standalone){#install-app{display:none}}
+@media (min-width:700px){.app{box-shadow:0 0 65px #233c3112}}
